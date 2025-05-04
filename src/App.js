@@ -5,6 +5,7 @@ import Blogs from "./components/Blogs";
 import "./App.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import BookAppointment from './components/BookAppointment';
 
 function ScrollToHashElement() {
   const location = useLocation();
@@ -114,7 +115,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blogs" element={<Blogs />} />
-        </Routes>
+          <Route path="/book-appointment" element={<BookAppointment />} />        </Routes>
       </div>
     </Router>
   );

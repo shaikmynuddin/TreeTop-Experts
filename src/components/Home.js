@@ -16,6 +16,7 @@ import ceoimg from "../assets/pexels-gary-barnes-6232016.jpg";
 import Slider from "react-slick";
 import { Users, ShieldCheck, DollarSign, Award } from "lucide-react";
 import chainsawImage from "../assets/BG.jpg";
+import { Link } from "react-router-dom";
 
 const testimonials = [
   {
@@ -90,9 +91,9 @@ function Home() {
                   flexWrap: "wrap",
                 }}
               >
-                <button className="btn-primary">
+                <Link to="/book-appointment" className="btn-primary">
                   Book Today <span>🡺</span>
-                </button>
+                </Link>
                 <a
                   href="#services"
                   style={{
