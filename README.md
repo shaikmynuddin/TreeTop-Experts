@@ -1,6 +1,10 @@
 <<<<<<< HEAD
 # Getting Started with Create React App
+<<<<<<< HEAD
 ![Project Logo](../treetopexperts/src/assets/Screenshot%202025-05-04%20183916.png"TreeTop-Experts Logo")
+=======
+![Project Logo](../treetopexperts/src/assets/Screenshot%202025-05-04%20183916.png)
+>>>>>>> 6a1a59b68aa73ad2f6f6ad2b71e4c5a1f028af71
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
