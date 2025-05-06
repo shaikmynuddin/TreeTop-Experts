@@ -84,6 +84,7 @@ function Home() {
                 Expert tree care, trimming, and removal
               </p>
               <div
+                className="hero-buttons"
                 style={{
                   display: "flex",
                   gap: "15px",
@@ -91,11 +92,12 @@ function Home() {
                   flexWrap: "wrap",
                 }}
               >
-                <Link to="/book-appointment" className="btn-primary">
+                <Link to="/book-appointment" className="book-now-btn">
                   Book Today <span>🡺</span>
                 </Link>
                 <a
                   href="#services"
+                  className="view-all-services"
                   style={{
                     color: "#fff",
                     textDecoration: "none",
@@ -125,30 +127,30 @@ function Home() {
       {/* Services Cards */}
       <div id="services" className="services-wrapper">
         <div className="services-row">
-          <div className="service-card">
+          <div className="service-card" style={{ width: "32%" }}>
             <img src={service1} alt="Tree Removal" />
             <div className="card-label">Tree Removal - Safe & Efficient</div>
           </div>
-          <div className="service-card">
+          <div className="service-card" style={{ width: "32%" }}>
             <img src={service2} alt="Trimming / Pruning" />
             <div className="card-label">Expert Trimming & Pruning</div>
           </div>
-          <div className="service-card">
+          <div className="service-card" style={{ width: "32%" }}>
             <img src={service3} alt="Stump Removal" />
             <div className="card-label">Stump Removal</div>
           </div>
         </div>
 
         <div className="services-row">
-          <div className="service-card">
+          <div className="service-card" style={{ width: "32%" }}>
             <img src={service4} alt="Grass Cutting" />
             <div className="card-label">Professional Grass Cutting</div>
           </div>
-          <div className="service-card">
+          <div className="service-card" style={{ width: "32%" }}>
             <img src={service5} alt="Tree Assessments" />
             <div className="card-label">Certified Tree Assessments</div>
           </div>
-          <div className="service-card">
+          <div className="service-card" style={{ width: "32%" }}>
             <img src={service6} alt="Emergency" />
             <div className="card-label">Emergency</div>
           </div>
@@ -159,17 +161,17 @@ function Home() {
       <div className="services-description-full">
         <div className="services-description-box">
           <div className="left">
-            <p className="section-label">— Our Services:</p>
-            <h2 className="section-title">TREE SERVICE</h2>
+            <p className="section-label"style={{color:"blanchedalmond"}}>— Our Services:</p>
+            <h2 className="section-title" style={{color:'white'}}>TREE SERVICE</h2>
           </div>
           <div className="right">
             <p className="section-text">
               Since 1995, we’ve been offering expert tree cutting services that
               are safe, professional, and affordable. Let us help you shape your
-              outdoor space today.
+              outdoor space today lore.
             </p>
-            <a href="#services">
-              <button className="btn-primary">View All Services 🡺</button>
+            <a href="#services" className="hero-buttons">
+              <button className="book-now-btn">View All Services 🡺</button>
             </a>
           </div>
         </div>
