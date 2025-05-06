@@ -432,9 +432,9 @@ function Home() {
 
           <div className="footer-contact">
             <h4>TreeTop Experts</h4>
-            <p>Brooklyn, NY 11201</p>
-            <p>United States</p>
-            <p>📞 (321) 242-0000</p>
+            <p>Kadapa, AP 516001</p>
+            <p>India </p>
+            <p>📞 7680 861590</p>
           </div>
         </div>
         <div className="footer-bottom">

@@ -48,7 +48,7 @@ function App() {
 
         {/* Navbar */}
         <nav className="navbar">
-          <div className="navbar-brand">TreeTop Experts</div>
+          <div className="navbar-brand" ><a href="/" style={{textDecoration:'none',color:'black'}}>TreeTop Experts</a></div>
           
           {/* Mobile Menu Button */}
           <button 
