@@ -146,7 +146,7 @@ function Home() {
             <img src={service4} alt="Grass Cutting" />
             <div className="card-label">Professional Grass Cutting</div>
           </div>
-          <div className="service-card" style={{ width: "32%" }}>
+          <div className="service-card" style={{ width: "92%" }}>
             <img src={service5} alt="Tree Assessments" />
             <div className="card-label">Certified Tree Assessments</div>
           </div>
@@ -171,7 +171,7 @@ function Home() {
               outdoor space today lore.
             </p>
             <a href="#services" className="hero-buttons">
-              <button className="book-now-btn">View All Services 🡺</button>
+              <button className="btn-primary">View All Services 🡺</button>
             </a>
           </div>
         </div>
